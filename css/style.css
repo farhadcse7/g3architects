@@ -358,6 +358,11 @@ footer {
     .nav-container,
     .nav-container>ul {
         flex-direction: column;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    .nav-logo {
+        margin-left: 0px;
     }
 
     .banner img {
@@ -418,4 +423,5 @@ footer {
         transform: translateX(150px) translateY(-100px);
     }
 
+    
 }

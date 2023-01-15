@@ -294,6 +294,9 @@ footer {
     font-size: 45px;
     font-weight: 700;
     color: #131313;
+    text-align: center;
+    padding-bottom: 10px;
+
 }
 
 .member-list {
@@ -370,6 +373,14 @@ footer {
         height: 100%;
     }
 
+    .banner-title {
+        width: 400px;
+        height: 250px;
+    }
+    .banner-description{
+        width: 400px;
+    }
+
     .quick-list {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -377,6 +388,12 @@ footer {
     .quick-list-images {
         grid-template-columns: repeat(1, 1fr);
 
+    }
+    .quick-list{
+        padding: 0 30px;
+    }
+    .fact-section{
+        padding: 0 20px;
     }
 
     .features-content {
@@ -391,7 +408,6 @@ footer {
 
     .fact-section {
         flex-direction: column;
-
     }
 
     .fact-list {
@@ -422,6 +438,7 @@ footer {
         height: 150px;
         transform: translateX(150px) translateY(-100px);
     }
+
 
     
 }

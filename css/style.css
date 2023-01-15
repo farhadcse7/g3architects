@@ -10,12 +10,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-
-
 /* Header Styles */
 header {
     text-align: center;
-    width: 100%; 
+    width: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -24,8 +22,8 @@ header {
     padding: 20px 0 40px 0;
 }
 
-/* Nav Styles */
 
+/* Nav Styles */
 .container {
     width: 85%;
 }
@@ -37,8 +35,6 @@ header {
     /* max-width: 1920px; */
     /* margin: 0 auto; */
 }
-
-
 
 .nav-container>ul {
     list-style: none;
@@ -107,17 +103,12 @@ header {
     margin-bottom: 50px;
 }
 
-
 .banner {
-   padding-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .banner img {
-    
     width: 100%;
-    
-
-
 }
 
 /* Main section Styles */
@@ -161,12 +152,10 @@ footer {
     font-size: 45px;
     line-height: 53px;
     color: #131313;
-
 }
 
 .quick-list-span {
     color: #727272;
-
 }
 
 .features-span {
@@ -174,7 +163,6 @@ footer {
 }
 
 /* Features love styles */
-
 .features-content {
     display: flex;
     align-items: center;
@@ -182,9 +170,9 @@ footer {
     width: 100%;
 }
 
-.features-content>div {
+/* .features-content>div {
     flex: 1;
-}
+} */
 
 .all-features>h2 {
     font-weight: 700;
@@ -216,12 +204,7 @@ footer {
     color: #727272;
 }
 
-
-
 .feature-card {
-    /* width: 99.5%;
-    height: 99.5%;
-    z-index: 10; */
     background: #fff;
     padding: 20px;
     margin: 20px 0;
@@ -234,11 +217,9 @@ footer {
     transition: 0.4s;
 }
 
-
 .feature-girl-img img {
     width: 100%;
 }
-
 
 .btn-experiences {
     text-align: center;
@@ -261,7 +242,6 @@ footer {
     line-height: 40px;
     text-align: center;
     color: #FFFFFF;
-
 }
 
 /* Fact Section Styles */
@@ -305,8 +285,8 @@ footer {
 
 /* Team Members Section Styles */
 
-.team-members{
-    margin:0 auto;
+.team-members {
+    margin: 0 auto;
     padding: 50px 0px;
 }
 
@@ -315,8 +295,6 @@ footer {
     font-weight: 700;
     color: #131313;
 }
-
-
 
 .member-list {
     display: grid;
@@ -331,9 +309,6 @@ footer {
     padding: 15px;
     transition: all 0.4s;
 }
-
-
-
 
 /* Sponspors Section Style */
 .sponspors {
@@ -379,83 +354,68 @@ footer {
 /* Responsive Mobile Design */
 
 @media only screen and (max-width: 576px) {
-    .nav-container, .nav-container>ul{
-        flex-direction: column;  
+
+    .nav-container,
+    .nav-container>ul {
+        flex-direction: column;
     }
-    .banner img{
+
+    .banner img {
         width: 100%;
         height: 100%;
     }
 
     .quick-list {
-      
-        grid-template-columns: repeat(1, 1fr);}
-       
-    
-.quick-list-images {
-    grid-template-columns: repeat(1, 1fr);
-    
-}
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .quick-list-images {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .features-content {
+        flex-direction: column;
+    }
+
+    .feature-girl-img img {
+        width: 100%;
+    }
 
 
 
-.features-content {
-    display: flex;
-    flex-direction: column;
-    
-}
+    .fact-section {
+        flex-direction: column;
 
-.feature-girl-img img {
-    width: 100%;
-}
+    }
 
+    .fact-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
+    .sponspors-logo {
+        display: flex;
+        flex-direction: column;
 
-.fact-section {
- 
-    flex-direction: column;
-  
-}
+    }
 
+    .member-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
+    .btn-experiences {
+        text-align: center;
+        color: #FFFFFF;
+        background-color: var(--primary-orange);
+        padding: 20px;
+        border-radius: 8px;
+        border-style: none;
+        font-weight: 700;
+        font-size: 30px;
+        width: 242px;
+        height: 150px;
+        transform: translateX(150px) translateY(-100px);
+    }
 
-
-.fact-list {
-  
-    grid-template-columns: repeat(1, 1fr);
-   
-}
-
-.sponspors-logo {
-    display: flex;
-    flex-direction: column;
-   
-}
-
-.member-list {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); 
-}
-
-.btn-experiences {
-    text-align: center;
-    color: #FFFFFF;
-    background-color: var(--primary-orange);
-    padding: 20px;
-    border-radius: 8px;
-    border-style: none;
-    font-weight: 700;
-    font-size: 30px;
-  
-    width: 242px;
-    height: 150px;
-    transform: translateX(150px) translateY(-100px);}
-
-
-
-
-
-
-
-    
 }
